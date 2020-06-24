@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+
+body{
+  background-color: green;
+  margin: 0;
+  width:100%;
+}
+
+#header {
+  z-index: 1;
+  padding: 0px; margin 0px;
+  height:75px;
+  width: 100%;
+  background-color: #000;
+  color:#1DE9B6;
+  font-family: Merriweather;
+  text-align: right;
+  position: fixed;
+  top: 0px;
+  left:0;
+}
+#logo{
+  z-index:1000;
+  color: red;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  background-color: gold;
+  border-radius: 90px;
+  position: fixed;
+  top: 7px;
+  left: 7px;
+
+}
+#logo>p{
+  padding:20px;
+  text-align:center;
+  font-size:24px;
+  
+}
+#content{
+
+  padding-top:75px;
+  height:1000px;
+  
+}
+.first-row{
+  width: 25%;
+  height:100px;
+  background-color: tomato;
+  float: left;
+  margin: 10px;
+}
+.second-row{
+  width: 193.5px;
+  height:100px;
+  background-color: blue;
+  float: left;
+  margin: 10px;
+}
+.third-row{
+  width: 25%;
+  height:100px;
+  background-color: pink;
+  float: right;
+  margin: 5px;
+}
+#help-box{
+  height: 50px;
+  width:75px;
+  background-color: #000;
+  color:#00B8D4;
+  font-family:Merriweather;
+  position: fixed;
+  bottom: 5%;
+  right: 0px;
+}
+#chat{
+  height: 40px;
+  width:45px;
+  background-color: #000;
+  color:#9C27B0;
+  font-family:Merriweather;
+  position: fixed;
+  bottom: 5%;
+  left: 0px;
+}
+#footer{
+  position: absolute;
+  height: 10px;
+  bottom:0;
+  width: 100%;
+  border-top: dashed 1px #000;
+}
